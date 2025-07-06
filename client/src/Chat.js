@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://chat-app-server-u1g4.onrender.com");
 
 function Chat({ username }) {
   const [message, setMessage] = useState("");
